@@ -1,4 +1,5 @@
-num_tickets = int(input("Введите количество билетов: "))
+num_tickets = int(input("""При покупке от трёх билетов скидка 10%
+Введите количество билетов: """))
 total_cost = 0
 num_free_tickets = 0
 for i in range(num_tickets):
